@@ -1,0 +1,42 @@
+.theme-block-dropdown {
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  border: 2px solid #272727;
+  padding: .5em;
+  transition: .25s;
+}
+
+.theme-block-dropdown.dark {
+  background-color: var(--color-dark);
+}
+
+.theme-block-dropdown.light {
+  background-color: var(--color-light);
+}
+
+.theme-block-dropdown select {
+  display: block;
+  margin: auto;
+  border-radius: 6px;
+  border: solid 2px;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.theme-block-dropdown select option {
+  background-color: initial;
+}
+
+.theme-block-dropdown select.dark {
+  color: var(--color-light);
+  border-color: var(--color-light);
+  background-color: var(--color-dark);
+}
+
+.theme-block-dropdown select.light {
+  color: var(--color-dark);
+  border-color: var(--color-dark);
+  background-color: var(--color-light);
+}
